@@ -42,7 +42,7 @@
             border-radius: 10px;
         }
 
-        .variant ul {
+        .photo-album ul {
             list-style: none;
             padding: 0;
             display: flex;
@@ -50,7 +50,7 @@
             gap: 10px;
         }
 
-        .variant li img {
+        .photo-album li img {
             width: 50px;
             height: 50px;
             object-fit: cover;
@@ -70,10 +70,20 @@
             margin: 10px 0;
         }
 
-        .variant img {
-            width: 30px;
-            height: 30px;
-            margin: 5px;
+        .variant ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .variant li img {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border: 2px solid #ccc;
+            border-radius: 5px;
             cursor: pointer;
         }
 
@@ -107,7 +117,7 @@
                 <div class="photo-main">
                     <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png" alt="Green Apple">
                 </div>
-                <div class="variant">
+                <div class="photo-album">
                     <ul>
                         <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png" alt="Green Apple"></li>
                         <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png" alt="Green Apple"></li>
@@ -123,11 +133,13 @@
             <div class="price">$7.93</div>
             <h3>SELECT A COLOR</h3>
             <div class="variant">
-                <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png" alt="Green">
-                <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png" alt="Yellow">
-                <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png" alt="Orange">
-                <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png" alt="Red">
-            </div>
+				<ul>
+                        <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png" alt="Green Apple"></li>
+                        <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png" alt="Green Apple"></li>
+                        <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png" alt="Green Apple"></li>
+                        <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png" alt="Green Apple"></li>
+                </ul>
+			</div>
             <div class="description">
                 <h3>BENEFITS</h3>
                 <ul>
